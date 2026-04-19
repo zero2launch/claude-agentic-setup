@@ -1,5 +1,5 @@
 param (
-    [Parameter(Mandatory=$true, HelpMessage="Vui lòng nhập API Key của bạn")]
+    [Parameter(Mandatory=$true, HelpMessage="Enter your API Key")]
     [string]$ApiKey
 )
 
@@ -24,4 +24,4 @@ $JsonContent = @"
 "@
 
 Set-Content -Path $ConfigFile -Value $JsonContent -Encoding UTF8
-Write-Host "✅ Cài đặt thành công! API Key đang dùng: $ApiKey" -ForegroundColor Green
+Write-Host "✅ Setup completed successfully! The API key is now in use: $ApiKey" -ForegroundColor Green
