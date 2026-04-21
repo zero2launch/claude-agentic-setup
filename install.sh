@@ -22,7 +22,7 @@ cat << EOF > "$CONFIG_FILE"
     "ANTHROPIC_API_KEY": "$API_KEY",
     "ANTHROPIC_BASE_URL": "https://agentic.zero2launch.io",
     "ANTHROPIC_DEFAULT_SONNET_MODEL": "gpt-5.3-codex",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-7",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "claude-opus-4-6",
     "API_TIMEOUT_MS": "200000",
     "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1"
   },
